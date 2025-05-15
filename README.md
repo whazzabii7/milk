@@ -49,6 +49,9 @@ The system itself is written entirely in **Zig** for maximum performance, contro
 
 - Nothing! (planned for now) 
   MILK **compiles LuaJIT directly into the binary**, so you don’t need any external Lua installation.
+- Buildtools and requirements you need for your project (obviouslly). You still need to have installed
+  build tools, **MILK** only helps you organize and keep track of your project, it will call extern tools
+  with specified arguments to automate somehow complicated or time-consuming build processes.
 
 ---
 
