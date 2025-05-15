@@ -1,6 +1,8 @@
 # MILK - Multi-Language Intelligent Linking & Compilation
 
-**MILK** is an experimental build support system written in [**Zig**](https://ziglang.org), using [**LuaJIT**](https://luajit.org) as its scripting engine to define flexible, powerful build rules.
+**MILK** is an experimental build support system written in [**Lua**](https://luajit.org) with **C** as [ffi](https://luajit.org/ext_ffi.html),
+using [**LuaJIT**](https://luajit.org) as its scripting engine to define flexible, powerful build rules. The Program is wrapped and embedded in a 
+[**Rustshell**](https://www.rust-lang.org/) to compile the program into an executable. **MILK** is therefore a perfekt example of what is possible to build with **MILK**
 
 > **Goal:** To create a fast, modular, cross-platform, multi-language build system with smart scripting capabilities.
 
